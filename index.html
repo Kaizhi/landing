@@ -39,11 +39,7 @@
           height: 43px;
           width: 20em;
           padding: 0 16px;
-          -webkit-border-radius: 5px;
-          -moz-border-radius: 5px;
-          -o-border-radius: 5px;
-          -ms-border-radius: 5px;
-          border-radius: 5px;
+          border-radius: 3px;
           border: solid 1px #e4e7ea;
           background-color: #fff;
           color: #212425;
@@ -59,22 +55,23 @@
 
         #mc-embedded-subscribe {
           display: inline-block;
-          height: 42px;
+          height: 43px;
           width: 10em;
           border: solid 1px #e74c3c;
-          -webkit-border-radius: 5px;
-          -moz-border-radius: 5px;
-          -o-border-radius: 5px;
-          -ms-border-radius: 5px;
-          border-radius: 5px;
+          border-radius: 3px;
           font-weight: 200;
           cursor: pointer;
           outline: none;
           text-align: center;
           color: white;
           background-color: #e74c3c;
+          transition: all .15s ease;
         }
 
+        #mc-embedded-subscribe:hover {
+          transform: translateY(-1px);
+          box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+        }
       </style>
   </head>
 
